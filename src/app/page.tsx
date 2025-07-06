@@ -168,7 +168,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-2xl font-bold mb-4 text-gray-100">Get In Touch</h2>
           <p className="text-base text-gray-300 mb-6">
-            I'm always open to new opportunities and collaborations. 
+            I&apos;m always open to new opportunities and collaborations. 
             Feel free to reach out!
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
