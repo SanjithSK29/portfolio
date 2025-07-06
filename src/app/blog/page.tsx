@@ -50,8 +50,8 @@ export default function Blog() {
               Learning Journey in Computer Science
             </h2>
             <p className="text-gray-300 mb-4">
-              Share your experiences as a CSE student, challenges you've faced, 
-              and what you've learned along the way.
+              Share your experiences as a CSE student, challenges you&apos;ve faced, 
+              and what you&apos;ve learned along the way.
             </p>
             <div className="flex gap-2">
               <span className="px-3 py-1 bg-gray-200 text-[#18181b] rounded-full text-xs">Education</span>

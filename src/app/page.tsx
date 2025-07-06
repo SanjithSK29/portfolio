@@ -89,7 +89,7 @@ export default function Home() {
               <div>
                 <h3 className="text-lg font-semibold mb-2 text-gray-100">Extracurricular Activities</h3>
                 <ul className="text-gray-300 text-sm list-disc list-inside">
-                  <li>Boys' Choir</li>
+                  <li>Boys&apos; Choir</li>
                   <li>Inter-School Basketball Team</li>
                   <li>Painting</li>
                   <li>Sketching</li>
@@ -156,7 +156,7 @@ export default function Home() {
             </div>
             <div className="bg-[#232329] p-6 rounded border border-[#232329]">
               <h3 className="text-lg font-semibold mb-2 text-gray-100">High School - ICSE</h3>
-              <p className="text-gray-300 text-sm">Bishop Cotton Boys' School</p>
+              <p className="text-gray-300 text-sm">Bishop Cotton Boys&apos; School</p>
               <p className="text-gray-500 text-xs">2022 · Grade: 87.5%</p>
             </div>
           </div>
