@@ -23,58 +23,27 @@ export default function Blog() {
         <div className="space-y-8">
           <div className="bg-[#232329] p-8 rounded border border-[#232329] hover:bg-[#232329]/80 transition-colors">
             <div className="flex items-center text-xs text-gray-400 mb-4">
-              <span>Coming Soon</span>
+              <span>June 2024</span>
               <span className="mx-2">•</span>
               <span>5 min read</span>
             </div>
             <h2 className="text-2xl font-bold text-gray-100 mb-4">
-              My First Blog Post
+              Starting My Journey into Computer Science
             </h2>
             <p className="text-gray-300 mb-4">
-              This is where your first blog post will go. Write about your experiences, 
-              projects, or insights about AI/ML and software development.
+              Hey there,<br/><br/>
+              I’ve just begun my journey into the world of Computer Science, and it already feels like I’ve opened the door to something vast, powerful, and deeply exciting. Whether it’s writing my first few lines of code, understanding how computers think, or exploring how technology shapes the world, it’s all new and fascinating.<br/><br/>
+              My interest in coding started back in school. I still remember the first time I wrote a simple program that printed my name on the screen. It was such a small thing, but seeing the computer respond to something I wrote felt almost magical. Since then, I’ve always been curious about how things work behind the scenes, how websites load, how apps are built, and how machines learn.<br/><br/>
+              I’m currently learning the basics more seriously now. I’m working with languages like Python, C++, and Java, and exploring core concepts like data structures, algorithms, and how the internet works. It’s a lot to absorb, but every moment of clarity makes the effort worth it.<br/><br/>
+              I recently started using Git and GitHub to track my projects. At first, it seemed overwhelming, but now I can see why version control is considered such an essential part of modern software development.<br/><br/>
+              Right now, I’m focused on building a strong foundation, one topic at a time. I’m learning through hands-on coding, tutorials, and trial-and-error. Every mistake is a lesson, and every solution builds confidence.<br/><br/>
+              I’m not sure where this path will lead,maybe web development, AI, security, or something I haven't discovered yet. But I know this is what I want to be doing.<br/><br/>
+              This is just the beginning.
             </p>
             <div className="flex gap-2">
-              <span className="px-3 py-1 bg-gray-200 text-[#18181b] rounded-full text-xs">AI/ML</span>
-              <span className="px-3 py-1 bg-gray-200 text-[#18181b] rounded-full text-xs">Technology</span>
-            </div>
-          </div>
-
-          <div className="bg-[#232329] p-8 rounded border border-[#232329] hover:bg-[#232329]/80 transition-colors">
-            <div className="flex items-center text-xs text-gray-400 mb-4">
-              <span>Coming Soon</span>
-              <span className="mx-2">•</span>
-              <span>3 min read</span>
-            </div>
-            <h2 className="text-2xl font-bold text-gray-100 mb-4">
-              Learning Journey in Computer Science
-            </h2>
-            <p className="text-gray-300 mb-4">
-              Share your experiences as a CSE student, challenges you&apos;ve faced, 
-              and what you&apos;ve learned along the way.
-            </p>
-            <div className="flex gap-2">
-              <span className="px-3 py-1 bg-gray-200 text-[#18181b] rounded-full text-xs">Education</span>
+              <span className="px-3 py-1 bg-gray-200 text-[#18181b] rounded-full text-xs">Journey</span>
               <span className="px-3 py-1 bg-gray-200 text-[#18181b] rounded-full text-xs">Learning</span>
-            </div>
-          </div>
-
-          <div className="bg-[#232329] p-8 rounded border border-[#232329] hover:bg-[#232329]/80 transition-colors">
-            <div className="flex items-center text-xs text-gray-400 mb-4">
-              <span>Coming Soon</span>
-              <span className="mx-2">•</span>
-              <span>7 min read</span>
-            </div>
-            <h2 className="text-2xl font-bold text-gray-100 mb-4">
-              Project Showcase: Building with AI
-            </h2>
-            <p className="text-gray-300 mb-4">
-              Detailed breakdown of one of your AI/ML projects, including the 
-              challenges, solutions, and lessons learned.
-            </p>
-            <div className="flex gap-2">
-              <span className="px-3 py-1 bg-gray-200 text-[#18181b] rounded-full text-xs">Projects</span>
-              <span className="px-3 py-1 bg-gray-200 text-[#18181b] rounded-full text-xs">AI/ML</span>
+              <span className="px-3 py-1 bg-gray-200 text-[#18181b] rounded-full text-xs">Computer Science</span>
             </div>
           </div>
         </div>
