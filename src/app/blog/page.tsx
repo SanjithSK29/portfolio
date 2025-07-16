@@ -37,7 +37,7 @@ export default function Blog() {
               I’m currently learning the basics more seriously now. I’m working with languages like Python, C++, and Java, and exploring core concepts like data structures, algorithms, and how the internet works. It’s a lot to absorb, but every moment of clarity makes the effort worth it.<br/><br/>
               I recently started using Git and GitHub to track my projects. At first, it seemed overwhelming, but now I can see why version control is considered such an essential part of modern software development.<br/><br/>
               Right now, I’m focused on building a strong foundation, one topic at a time. I’m learning through hands-on coding, tutorials, and trial-and-error. Every mistake is a lesson, and every solution builds confidence.<br/><br/>
-              I’m not sure where this path will lead,maybe web development, AI, security, or something I haven't discovered yet. But I know this is what I want to be doing.<br/><br/>
+              I’m not sure where this path will lead,maybe web development, AI, security, or something I haven&apos;t discovered yet. But I know this is what I want to be doing.<br/><br/>
               This is just the beginning.
             </p>
             <div className="flex gap-2">
