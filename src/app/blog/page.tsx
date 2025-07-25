@@ -21,6 +21,30 @@ export default function Blog() {
 
         {/* Blog Posts Placeholder */}
         <div className="space-y-8">
+          {/* New Blog Post - Now First */}
+          <div className="bg-[#232329] p-8 rounded border border-[#232329] hover:bg-[#232329]/80 transition-colors">
+            <div className="flex items-center text-xs text-gray-400 mb-4">
+              <span>June 2024</span>
+              <span className="mx-2">•</span>
+              <span>4 min read</span>
+            </div>
+            <h2 className="text-2xl font-bold text-gray-100 mb-4">
+              Is Web Development Dead?
+            </h2>
+            <p className="text-gray-300 mb-4">
+              Is web development dead? Not in theory, but in the way it’s widely practiced today, maybe yes. For years, web dev has been the default entry point for college students and beginners, largely because of the instant feedback loop: write a few lines of HTML or CSS, refresh the browser, and boom! your work comes to life. That visual reward is addictive. People are naturally drawn to building things they can see. It feels real, satisfying, and creative. But here&apos;s the truth many haven&apos;t faced yet. AI can now do that, and it can do it better.<br/><br/>
+              Tools like ChatGPT, Framer AI, Vercel’s v0, and others can generate full, responsive websites  complete with animations, forms, routing, and even backend logic in seconds. From a single prompt, you can get something that would&apos;ve taken a beginner days (or weeks) to build. And in many cases, the code is cleaner and more optimized than what even junior devs produce. The learning curve that used to gatekeep the ability to build websites is gone. You no longer need to understand the DOM to deploy a portfolio.<br/><br/>
+              Businesses aren&apos;t looking for people who can write boilerplate code anymore. They want results. If AI can deliver that faster and cheaper, then the need for traditional, by-hand website development is shrinking. What used to feel like a superpower, the ability to turn code into a live site, is now something anyone can do with a single sentence.<br/><br/>
+              So… is web dev dead? The kind of web dev that just stitches together templates and CRUD logic? Pretty much. What remains are high-level roles: system thinkers, product engineers, full-stack architects. The people who solve problems, not just build pages. If you&apos;re still learning web dev in 2025 as a way to stand out, it&apos;s time to rethink that. The landscape has shifted.<br/><br/>
+              The golden era of web dev is over. What&apos;s next is a different game.
+            </p>
+            <div className="flex gap-2">
+              <span className="px-3 py-1 bg-gray-200 text-[#18181b] rounded-full text-xs">Web Development</span>
+              <span className="px-3 py-1 bg-gray-200 text-[#18181b] rounded-full text-xs">AI</span>
+              <span className="px-3 py-1 bg-gray-200 text-[#18181b] rounded-full text-xs">Future</span>
+            </div>
+          </div>
+          {/* Previous Blog Post - Now Second */}
           <div className="bg-[#232329] p-8 rounded border border-[#232329] hover:bg-[#232329]/80 transition-colors">
             <div className="flex items-center text-xs text-gray-400 mb-4">
               <span>June 2024</span>
@@ -44,29 +68,6 @@ export default function Blog() {
               <span className="px-3 py-1 bg-gray-200 text-[#18181b] rounded-full text-xs">Journey</span>
               <span className="px-3 py-1 bg-gray-200 text-[#18181b] rounded-full text-xs">Learning</span>
               <span className="px-3 py-1 bg-gray-200 text-[#18181b] rounded-full text-xs">Computer Science</span>
-            </div>
-          </div>
-          {/* New Blog Post */}
-          <div className="bg-[#232329] p-8 rounded border border-[#232329] hover:bg-[#232329]/80 transition-colors">
-            <div className="flex items-center text-xs text-gray-400 mb-4">
-              <span>June 2024</span>
-              <span className="mx-2">•</span>
-              <span>4 min read</span>
-            </div>
-            <h2 className="text-2xl font-bold text-gray-100 mb-4">
-              Is Web Development Dead?
-            </h2>
-            <p className="text-gray-300 mb-4">
-              Is web development dead? Not in theory, but in the way it’s widely practiced today, maybe yes. For years, web dev has been the default entry point for college students and beginners, largely because of the instant feedback loop: write a few lines of HTML or CSS, refresh the browser, and boom! your work comes to life. That visual reward is addictive. People are naturally drawn to building things they can see. It feels real, satisfying, and creative. But here&apos;s the truth many haven&apos;t faced yet. AI can now do that, and it can do it better.<br/><br/>
-              Tools like ChatGPT, Framer AI, Vercel’s v0, and others can generate full, responsive websites  complete with animations, forms, routing, and even backend logic in seconds. From a single prompt, you can get something that would&apos;ve taken a beginner days (or weeks) to build. And in many cases, the code is cleaner and more optimized than what even junior devs produce. The learning curve that used to gatekeep the ability to build websites is gone. You no longer need to understand the DOM to deploy a portfolio.<br/><br/>
-              Businesses aren&apos;t looking for people who can write boilerplate code anymore. They want results. If AI can deliver that faster and cheaper, then the need for traditional, by-hand website development is shrinking. What used to feel like a superpower, the ability to turn code into a live site, is now something anyone can do with a single sentence.<br/><br/>
-              So… is web dev dead? The kind of web dev that just stitches together templates and CRUD logic? Pretty much. What remains are high-level roles: system thinkers, product engineers, full-stack architects. The people who solve problems, not just build pages. If you&apos;re still learning web dev in 2025 as a way to stand out, it&apos;s time to rethink that. The landscape has shifted.<br/><br/>
-              The golden era of web dev is over. What&apos;s next is a different game.
-            </p>
-            <div className="flex gap-2">
-              <span className="px-3 py-1 bg-gray-200 text-[#18181b] rounded-full text-xs">Web Development</span>
-              <span className="px-3 py-1 bg-gray-200 text-[#18181b] rounded-full text-xs">AI</span>
-              <span className="px-3 py-1 bg-gray-200 text-[#18181b] rounded-full text-xs">Future</span>
             </div>
           </div>
         </div>
