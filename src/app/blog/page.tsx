@@ -24,7 +24,7 @@ export default function Blog() {
           {/* New Blog Post - Now First */}
           <div className="bg-[#232329] p-8 rounded border border-[#232329] hover:bg-[#232329]/80 transition-colors">
             <div className="flex items-center text-xs text-gray-400 mb-4">
-              <span>June 2024</span>
+              <span>July 2025</span>
               <span className="mx-2">•</span>
               <span>4 min read</span>
             </div>
@@ -47,7 +47,7 @@ export default function Blog() {
           {/* Previous Blog Post - Now Second */}
           <div className="bg-[#232329] p-8 rounded border border-[#232329] hover:bg-[#232329]/80 transition-colors">
             <div className="flex items-center text-xs text-gray-400 mb-4">
-              <span>June 2024</span>
+              <span>July 2025</span>
               <span className="mx-2">•</span>
               <span>5 min read</span>
             </div>
