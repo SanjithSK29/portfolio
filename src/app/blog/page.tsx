@@ -7,18 +7,45 @@ export default function Blog() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
   const posts = [
     {
+      date: 'August 2025',
+      read: '6 min read',
+      title: 'What I Did This Holiday: A Journey of Learning and Building',
+      preview: "This holiday turned out to be one of the most productive ones I have had in a long time. Instead of spending my break in the usual way, I decided to dedicate it to learning new skills...",
+      content: (
+        <>
+          {`This holiday turned out to be one of the most productive ones I have had in a long time. Instead of spending my break in the usual way, I decided to dedicate it to learning new skills, sharpening my problem-solving abilities, and creating projects that I am proud of. Here is a quick rundown of everything I did:`}<br /><br />
+          <strong>1. Tackling 56 Questions on LeetCode</strong><br /><br />
+          {`I started my break with a strong focus on improving my coding skills. I solved 56 LeetCode questions, which really helped me strengthen my problem-solving approach and algorithmic thinking. From easy to challenging problems, every question taught me something new, whether it was optimizing time complexity or thinking in terms of edge cases.`}<br /><br />
+          <strong>2. Understanding Git and GitHub</strong><br /><br />
+          {`Version control was something I had always used at a basic level, but this time I decided to really dive deep into Git and GitHub. I learned how branching, merging, pull requests, and collaboration actually work in real-world projects. This has made me much more confident about contributing to open source and managing my own projects in a structured way.`}<br /><br />
+          <strong>3. Completed Andrew Ng's Supervised Machine Learning Course</strong><br /><br />
+          {`I also spent time learning about Machine Learning. I finished Andrew Ng's Supervised Learning course, which gave me a strong foundation in concepts like linear regression, logistic regression, cost functions, gradient descent, and model evaluation. It was eye opening to see how math and programming come together to make machines learn.`}<br /><br />
+          <strong>4. Built My Portfolio Website</strong><br /><br />
+          {`This was one of the highlights of my holiday. I designed and developed my own portfolio website, which showcases my work, skills, and projects. It was a great experience to apply my web development knowledge to something that represents me and my journey.`}<br /><br />
+          <strong>5. Started MIT's Missing Semester Course</strong><br /><br />
+          {`To level up my understanding of developer tools and workflows, I started the Missing Semester course offered by MIT. This course covers topics like the command line, shell scripting, version control, editors, debugging, and more. These are things that are not often taught in a typical CS curriculum but are extremely important in real-world development.`}<br /><br />
+          <strong>6. Learning Web Development Tools and Hosting</strong><br /><br />
+          {`While working on my website and other mini projects, I learned about different web development tools and how to host websites. Understanding how the backend of hosting works and deploying projects live on the internet was both challenging and rewarding.`}<br /><br />
+          <strong>Final Thoughts</strong><br /><br />
+          {`Looking back, this holiday was all about growth and building skills that will stay with me forever. From problem-solving to machine learning, from web development to mastering essential tools, I feel like I made the most out of this break.`}<br /><br />
+          {`This experience has motivated me to keep learning and building even as regular college life resumes. Here is to turning every break into a chance to grow!`}
+        </>
+      ),
+      tags: ['Learning', 'Holiday', 'Projects', 'Growth'],
+    },
+    {
       date: 'July 2025',
       read: '5 min read',
       title: 'Why the AI Boom Is an Opportunity, Not a Threat',
       preview: "AI is just another boom in the tech industry, and that's a good thing. We've seen similar booms throughout history...",
       content: (
         <>
-          {`AI is just another boom in the tech industry, and that’s a good thing. We've seen similar booms throughout history, and they’ve always brought massive shifts in how we work and live. But each time, they created more opportunities than they destroyed.`}<br /><br />
-          {`Take the Industrial Revolution for instance. People feared that machines would replace human labor entirely. And while it’s true that machines reduced the need for manual labor in certain tasks, the overall demand for workers didn’t vanish. Instead, the focus shifted. More machines meant more production, which meant more technicians, engineers, and operators were needed. The people who adapted to the new tools thrived. The ones who struggled the most were often those who clung to outdated ways of working.`}<br /><br />
+          {`AI is just another boom in the tech industry, and that's a good thing. We've seen similar booms throughout history, and they've always brought massive shifts in how we work and live. But each time, they created more opportunities than they destroyed.`}<br /><br />
+          {`Take the Industrial Revolution for instance. People feared that machines would replace human labor entirely. And while it's true that machines reduced the need for manual labor in certain tasks, the overall demand for workers didn't vanish. Instead, the focus shifted. More machines meant more production, which meant more technicians, engineers, and operators were needed. The people who adapted to the new tools thrived. The ones who struggled the most were often those who clung to outdated ways of working.`}<br /><br />
           {`We saw the same thing happen in the 1990s during the tech and internet boom. Traditional systems like physical registries, paper-based accounting, and manual data entry jobs were automated or moved online. Many feared mass unemployment. But instead of mass layoffs, we saw the rise of new roles: web developers, IT support, cybersecurity experts, digital marketers, and more. Entire industries were born from that shift. People who adapted to the new digital landscape found new careers and even built multi-billion-dollar companies.`}<br /><br />
-          {`Another example is the mobile revolution in the late 2000s. With the launch of smartphones and app stores, the demand for mobile developers exploded. Roles like UI/UX designers, app developers, and mobile product managers didn’t exist before, but now they are essential in nearly every tech company. And once again, people who learned and evolved with the tech wave succeeded.`}<br /><br />
-          {`Now we are at a similar point with AI. It is natural for people to feel uncertain, especially when some jobs are changing rapidly. But history shows us that those who adapt, upskill, and embrace the change often end up in better positions than before. As software engineers, AI is not here to replace us. It is here to enhance our abilities. It can automate repetitive tasks, optimize workflows, and open up creative possibilities that weren’t feasible before. The engineers who learn to leverage AI effectively will likely be the most in-demand in the coming years.`}<br /><br />
-          {`A boom in the industry is an exciting time. It means growth, innovation, and opportunity. It is far better to be in a dynamic, evolving job market than a stagnant one with limited progress. The key is to stay curious, keep learning, and evolve with the technology, just like we’ve done every time before.`}
+          {`Another example is the mobile revolution in the late 2000s. With the launch of smartphones and app stores, the demand for mobile developers exploded. Roles like UI/UX designers, app developers, and mobile product managers didn't exist before, but now they are essential in nearly every tech company. And once again, people who learned and evolved with the tech wave succeeded.`}<br /><br />
+          {`Now we are at a similar point with AI. It is natural for people to feel uncertain, especially when some jobs are changing rapidly. But history shows us that those who adapt, upskill, and embrace the change often end up in better positions than before. As software engineers, AI is not here to replace us. It is here to enhance our abilities. It can automate repetitive tasks, optimize workflows, and open up creative possibilities that weren't feasible before. The engineers who learn to leverage AI effectively will likely be the most in-demand in the coming years.`}<br /><br />
+          {`A boom in the industry is an exciting time. It means growth, innovation, and opportunity. It is far better to be in a dynamic, evolving job market than a stagnant one with limited progress. The key is to stay curious, keep learning, and evolve with the technology, just like we've done every time before.`}
         </>
       ),
       tags: ['AI', 'Tech Industry', 'Opportunities'],
